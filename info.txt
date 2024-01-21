@@ -1,0 +1,15 @@
+Para essa aula o banco de dados deve ter as seguintes tabelas com suas colunas correspondentes:
+
+Tabela: user
+id (INTEGER): Chave primária única para identificar cada usuário.
+username (VARCHAR(50)): Nome de usuário, limitado a 50 caracteres.
+password (VARCHAR(255)): Senha do usuário, armazenada como hash, limitada a 255 caracteres.
+email (VARCHAR(100)): Endereço de e-mail do usuário, limitado a 100 caracteres.
+
+Tabela: client
+id (INTEGER): Chave primária única para identificar cada cliente.
+name (VARCHAR(100)): Nome do cliente, limitado a 100 caracteres.
+contact_info (VARCHAR(150)): Informações de contato do cliente, como número de telefone ou e-mail, limitadas a 150 caracteres.
+address (VARCHAR(200)): Endereço do cliente, limitado a 200 caracteres.
+
+A estrutura padrão das rotas já está criada vocês tem que implementar as consultas com o banco de dados para cada uma delas.
