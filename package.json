@@ -1,0 +1,20 @@
+{
+  "name": "aula_prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
